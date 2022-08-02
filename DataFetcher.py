@@ -36,7 +36,12 @@ Time_Periods = [
     ["1 Jan, 2021","31 Dec, 2021","2021"],
     ["1 Jan, 2022","1 Jul, 2022","2022H1"]
 ]
+candles = client.get_historical_klines("BTCUSDT",Client.KLINE_INTERVAL_1DAY,"1 Jan, 2017","31 Dec, 2017")
+print(candles)
+for candle in candles:
+    print(candle)
 
+"""
 for time_period in Time_Periods:
     for interval in Intervals:
         candles = client.get_historical_klines("BTCUSDT",interval[0],time_period[0],time_period[1])
@@ -51,5 +56,5 @@ for time_period in Time_Periods:
             csvwriter.writerow(candle)
         csvfile.close()
 
-
+"""
 
