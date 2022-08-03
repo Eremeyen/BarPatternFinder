@@ -41,7 +41,7 @@ print(candles)
 for candle in candles:
     print(candle)
 
-"""
+
 for time_period in Time_Periods:
     for interval in Intervals:
         candles = client.get_historical_klines("BTCUSDT",interval[0],time_period[0],time_period[1])
@@ -56,5 +56,4 @@ for time_period in Time_Periods:
             csvwriter.writerow(candle)
         csvfile.close()
 
-"""
 

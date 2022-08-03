@@ -9,7 +9,7 @@ ex: BTCUSDT_4H_2020, BTCUSDT_4H_2020Q1, BTCUSDT_4H_2020H1, BTCUSDT_15M_2020&2021
 <br>
 Candle Object Attributes:
 <br>
--open, high, low, close, timestamp
+-open, high, low, close, timestamp, percentage return
 <br>
 -return: (close-open) / open
 <br>
