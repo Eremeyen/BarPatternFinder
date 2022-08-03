@@ -59,9 +59,10 @@ for i in list(fi3):
 for i in list(fi4):
     pat_l5.append(list(i))
 
-#example of accessing data from csv file
 
-def candlesFromCSV(filename):
+
+
+def candles_from_CSV(filename):
     csvfile = open("DATA/" + filename)
     csv_reader = csv.reader(csvfile)
     candles = []
@@ -71,21 +72,73 @@ def candlesFromCSV(filename):
     return candles
 
 def lengthThreeKlines(candles):
+    pattern_dict = {}
+    for i in pat_l3:
+        s = str(i)
+        pattern_dict[s] = []
     for i in range(candles.length-4):
         check_pattern = []
         c1 = Candle(candles[i][1],candles[i][2],candles[i][3],candles[i][4],candles[i][0])
         c2 = Candle(candles[i+1][1],candles[i+1][2],candles[i+1][3],candles[i+1][4],candles[i+1][0])
         c3 = Candle(candles[i+2][1],candles[i+2][2],candles[i+2][3],candles[i+2][4],candles[i+2][0])
-        cs = [c1,c2,c3]
+        cf = [c1,c2,c3]
         c4 = Candle(candles[i+3][1],candles[i+3][2],candles[i+3][3],candles[i+3][4],candles[i+3][0])
         check_pattern.append(c1.is_green)
         check_pattern.append(c2.is_green)
         check_pattern.append(c3.is_green)
+        for key in pattern_dict:
+            if(key == str(check_pattern)):
+                pattern_dict[key].append(klineN(cf,c4))
+    return pattern_dict
 
-    
-        
+   
+def lengthFourKlines(candles):
+    pattern_dict = {}
+    for i in pat_l4:
+        s = str(i)
+        pattern_dict[s] = []
+    for i in range(candles.length-5):
+        check_pattern = []
+        c1 = Candle(candles[i][1],candles[i][2],candles[i][3],candles[i][4],candles[i][0])
+        c2 = Candle(candles[i+1][1],candles[i+1][2],candles[i+1][3],candles[i+1][4],candles[i+1][0])
+        c3 = Candle(candles[i+2][1],candles[i+2][2],candles[i+2][3],candles[i+2][4],candles[i+2][0])
+        c4 = Candle(candles[i+3][1],candles[i+3][2],candles[i+3][3],candles[i+3][4],candles[i+3][0])
+        cs = [c1,c2,c3,c4]
+        cf = Candle(candles[i+4][1],candles[i+4][2],candles[i+4][3],candles[i+4][4],candles[i+4][0])
+        check_pattern.append(c1.is_green)
+        check_pattern.append(c2.is_green)
+        check_pattern.append(c3.is_green)
+        check_pattern.append(c4.is_green)
+        for key in pattern_dict:
+            if(key == str(check_pattern)):
+                pattern_dict[key].append(klineN(cs,cf))
+        return pattern_dict
 
+   
 
+def lengthFiveKlines(candles):
+    pattern_dict = {}
+    for i in pat_l5:
+        s = str(i)
+        pattern_dict[s] = []
+    for i in range(candles.length-6):
+        check_pattern = []
+        c1 = Candle(candles[i][1],candles[i][2],candles[i][3],candles[i][4],candles[i][0])
+        c2 = Candle(candles[i+1][1],candles[i+1][2],candles[i+1][3],candles[i+1][4],candles[i+1][0])
+        c3 = Candle(candles[i+2][1],candles[i+2][2],candles[i+2][3],candles[i+2][4],candles[i+2][0])
+        c4 = Candle(candles[i+3][1],candles[i+3][2],candles[i+3][3],candles[i+3][4],candles[i+3][0])
+        c5 = Candle(candles[i+4][1],candles[i+4][2],candles[i+4][3],candles[i+4][4],candles[i+4][0])
+        cs = [c1,c2,c3,c4,c5]
+        cf = Candle(candles[i+5][1],candles[i+5][2],candles[i+5][3],candles[i+5][4],candles[i+5][0])
+        check_pattern.append(c1.is_green)
+        check_pattern.append(c2.is_green)
+        check_pattern.append(c3.is_green)
+        check_pattern.append(c4.is_green)
+        check_pattern.append(c5.is_green)
+        for key in pattern_dict:
+            if(key == str(check_pattern)):
+                pattern_dict[key].append(klineN(cs,cf))
+        return pattern_dict
     
 
 
