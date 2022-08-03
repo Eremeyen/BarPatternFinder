@@ -2,6 +2,7 @@
 #percentage of green following candles
 #62 plots
 import green_red_pattern_finder
+#import mathplotlib
 
 
 
@@ -13,4 +14,3 @@ length_three_p = green_red_pattern_finder.lengthThreeKlines(candles)
 length_four_p = green_red_pattern_finder.lengthFourKlines(candles)
 length_five_p = green_red_pattern_finder.lengthFiveKlines(candles)
 
-    
