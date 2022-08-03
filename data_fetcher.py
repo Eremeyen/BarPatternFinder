@@ -6,7 +6,6 @@ from binance.client import Client
 load_dotenv()
 
 b_key = os.getenv("BinanceAPI_Key")
-print(b_key)
 b_secret = os.getenv("BinanceAPI_Secret")
 client = Client(b_key,b_secret)
 
@@ -29,28 +28,26 @@ Intervals = [
 ]
 
 Time_Periods = [
-    ["1 Jan, 2017","31 Dec, 2017","2017"],
-    ["1 Jan, 2018","31 Dec, 2018","2018"],
-    ["1 Jan, 2019","31 Dec, 2019","2019"],
     ["1 Jan, 2020","31 Dec, 2020","2020"],
     ["1 Jan, 2021","31 Dec, 2021","2021"],
     ["1 Jan, 2022","1 Jul, 2022","2022H1"]
 ]
-candles = client.get_historical_klines("BTCUSDT",Client.KLINE_INTERVAL_1DAY,"1 Jan, 2017","31 Dec, 2017")
-print(candles)
-for candle in candles:
-    print(candle)
+"""
+["1 Jan, 2017","31 Dec, 2017","2017"],
+    ["1 Jan, 2018","31 Dec, 2018","2018"],
+    ["1 Jan, 2019","31 Dec, 2019","2019"],
+"""
 
 
 for time_period in Time_Periods:
     for interval in Intervals:
-        candles = client.get_historical_klines("BTCUSDT",interval[0],time_period[0],time_period[1])
         
+        candles = client.get_historical_klines("BTCUSDT",interval[0],time_period[0],time_period[1])
         i = interval[1]
         tp = time_period[2]
         filename = "DATA/BTCUSDT_{}_{}.csv".format(i,tp)
         csvfile = open(filename,"w",newline="")
-        csvwriter = csv.writer(csvfile,delimeter=",")
+        csvwriter = csv.writer(csvfile,delimiter=",")
         for candle in candles:
             candle[0] /= 10
             csvwriter.writerow(candle)

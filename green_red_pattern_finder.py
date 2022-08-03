@@ -7,13 +7,13 @@ class klineN:
         self.followingCandle = followingCandle
 class Candle:
     def __init__(self,open,high,low,close,timestamp):
-        self.open = open
-        self.high = high
-        self.low = low
-        self.close = close
-        self.timestamp = timestamp
-        self.is_green = close > open
-        self.ratio = (close-open) / open
+        self.open = float(open)
+        self.high = float(high)
+        self.low = float(low)
+        self.close = float(close)
+        self.timestamp = float(timestamp)
+        self.is_green = float(close) > float(open)
+        self.ratio = (float(close)-float(open)) / float(open)
 
 #implementing simple green/red patterns
 #green is true, red is false
@@ -74,7 +74,7 @@ def lengthThreeKlines(candles):
     for i in pat_l3:
         s = str(i)
         pattern_dict[s] = []
-    for i in range(candles.length-4):
+    for i in range(len(candles)-4):
         check_pattern = []
         c1 = Candle(candles[i][1],candles[i][2],candles[i][3],candles[i][4],candles[i][0])
         c2 = Candle(candles[i+1][1],candles[i+1][2],candles[i+1][3],candles[i+1][4],candles[i+1][0])
@@ -95,7 +95,7 @@ def lengthFourKlines(candles):
     for i in pat_l4:
         s = str(i)
         pattern_dict[s] = []
-    for i in range(candles.length-5):
+    for i in range(len(candles)-5):
         check_pattern = []
         c1 = Candle(candles[i][1],candles[i][2],candles[i][3],candles[i][4],candles[i][0])
         c2 = Candle(candles[i+1][1],candles[i+1][2],candles[i+1][3],candles[i+1][4],candles[i+1][0])
@@ -119,7 +119,7 @@ def lengthFiveKlines(candles):
     for i in pat_l5:
         s = str(i)
         pattern_dict[s] = []
-    for i in range(candles.length-6):
+    for i in range(len(candles)-6):
         check_pattern = []
         c1 = Candle(candles[i][1],candles[i][2],candles[i][3],candles[i][4],candles[i][0])
         c2 = Candle(candles[i+1][1],candles[i+1][2],candles[i+1][3],candles[i+1][4],candles[i+1][0])
