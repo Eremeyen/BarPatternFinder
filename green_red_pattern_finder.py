@@ -1,6 +1,4 @@
 import csv
-import os
-#import matplotlib
 from itertools import permutations
 
 class klineN:
@@ -15,7 +13,7 @@ class Candle:
         self.close = close
         self.timestamp = timestamp
         self.is_green = close > open
-        self.percentage = (close-open) / open
+        self.ratio = (close-open) / open
 
 #implementing simple green/red patterns
 #green is true, red is false
