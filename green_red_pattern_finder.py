@@ -2,9 +2,9 @@ import csv
 from itertools import permutations
 
 class klineN:
-    def __init__(self,candles,followingCandle):
+    def __init__(self,candles,following_candle):
         self.candles = candles
-        self.followingCandle = followingCandle
+        self.following_candle = following_candle
 class Candle:
     def __init__(self,open,high,low,close,timestamp):
         self.open = float(open)
@@ -110,7 +110,7 @@ def lengthFourKlines(candles):
         for key in pattern_dict:
             if(key == str(check_pattern)):
                 pattern_dict[key].append(klineN(cs,cf))
-        return pattern_dict
+    return pattern_dict
 
    
 
@@ -136,7 +136,7 @@ def lengthFiveKlines(candles):
         for key in pattern_dict:
             if(key == str(check_pattern)):
                 pattern_dict[key].append(klineN(cs,cf))
-        return pattern_dict
+    return pattern_dict
     
 
 
