@@ -1,1 +1,194 @@
-{"[True, True, True, True, True]": {"average return": 3.7595527686421377, "median return": 2.0691249051307734, "number": 6, "percengage of green candles": 66.66666666666666}, "[False, False, False, False, False]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[True, False, False, False, False]": {"average return": 6.22689714175481, "median return": 6.22689714175481, "number": 2, "percengage of green candles": 100.0}, "[False, True, False, False, False]": {"average return": -10.57980037926202, "median return": -10.57980037926202, "number": 2, "percengage of green candles": 0.0}, "[False, False, True, False, False]": {"average return": -19.78679803152158, "median return": -19.78679803152158, "number": 1, "percengage of green candles": 0.0}, "[False, False, False, True, False]": {"average return": 6.612382529586792, "median return": 6.612382529586792, "number": 2, "percengage of green candles": 50.0}, "[False, False, False, False, True]": {"average return": 0.4888148762688288, "median return": 0.4888148762688288, "number": 2, "percengage of green candles": 50.0}, "[True, True, False, False, False]": {"average return": 6.762831423373468, "median return": 6.762831423373468, "number": 1, "percengage of green candles": 100.0}, "[True, False, True, False, False]": {"average return": -5.948567281995011, "median return": -5.948567281995011, "number": 1, "percengage of green candles": 0.0}, "[True, False, False, True, False]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[True, False, False, False, True]": {"average return": -0.7632036250004774, "median return": -0.7632036250004774, "number": 1, "percengage of green candles": 0.0}, "[False, True, True, False, False]": {"average return": -4.118335471161998, "median return": -4.118335471161998, "number": 1, "percengage of green candles": 0.0}, "[False, True, False, True, False]": {"average return": 6.418299578520861, "median return": 6.418299578520861, "number": 2, "percengage of green candles": 50.0}, "[False, True, False, False, True]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[False, False, True, True, False]": {"average return": 5.3632226529580205, "median return": 5.3632226529580205, "number": 1, "percengage of green candles": 100.0}, "[False, False, True, False, True]": {"average return": -3.5003353193615228, "median return": -3.5003353193615228, "number": 1, "percengage of green candles": 0.0}, "[False, False, False, True, True]": {"average return": -5.213239220197834, "median return": -5.213239220197834, "number": 1, "percengage of green candles": 0.0}, "[True, True, True, False, False]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[True, True, False, True, False]": {"average return": 3.0760795710359257, "median return": 3.0760795710359257, "number": 2, "percengage of green candles": 100.0}, "[True, True, False, False, True]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[True, False, True, True, False]": {"average return": 1.7503457061805308, "median return": 1.7503457061805308, "number": 2, "percengage of green candles": 50.0}, "[True, False, True, False, True]": {"average return": -0.8382623308265252, "median return": 1.7146780070307424, "number": 3, "percengage of green candles": 66.66666666666666}, "[True, False, False, True, True]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[False, True, True, True, False]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[False, True, True, False, True]": {"average return": -4.22040415244904, "median return": -1.49945805130448, "number": 3, "percengage of green candles": 0.0}, "[False, True, False, True, True]": {"average return": -3.9016610655744626, "median return": -3.9016610655744626, "number": 2, "percengage of green candles": 50.0}, "[False, False, True, True, True]": {"average return": "this pattern wasn't observed", "median return": "this pattern wasn't observed", "number": 0, "percengage of green candles": "this pattern wasn't observed"}, "[True, True, True, True, False]": {"average return": 9.907234537544081, "median return": 9.907234537544081, "number": 2, "percengage of green candles": 100.0}, "[True, True, True, False, True]": {"average return": 11.383914948926202, "median return": 11.383914948926202, "number": 2, "percengage of green candles": 100.0}, "[True, True, False, True, True]": {"average return": 4.148600865984657, "median return": 4.148600865984657, "number": 2, "percengage of green candles": 50.0}, "[True, False, True, True, True]": {"average return": 11.173893032932744, "median return": 11.173893032932744, "number": 2, "percengage of green candles": 100.0}, "[False, True, True, True, True]": {"average return": 8.598423034264595, "median return": 8.598423034264595, "number": 2, "percengage of green candles": 100.0}}
+{
+  "[True, True, True, True, True]": {
+    "average return": 3.7595527686421377,
+    "median return": 2.0691249051307734,
+    "number": 6,
+    "percengage of green candles": 66.66666666666666
+  },
+  "[False, False, False, False, False]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[True, False, False, False, False]": {
+    "average return": 6.22689714175481,
+    "median return": 6.22689714175481,
+    "number": 2,
+    "percengage of green candles": 100.0
+  },
+  "[False, True, False, False, False]": {
+    "average return": -10.57980037926202,
+    "median return": -10.57980037926202,
+    "number": 2,
+    "percengage of green candles": 0.0
+  },
+  "[False, False, True, False, False]": {
+    "average return": -19.78679803152158,
+    "median return": -19.78679803152158,
+    "number": 1,
+    "percengage of green candles": 0.0
+  },
+  "[False, False, False, True, False]": {
+    "average return": 6.612382529586792,
+    "median return": 6.612382529586792,
+    "number": 2,
+    "percengage of green candles": 50.0
+  },
+  "[False, False, False, False, True]": {
+    "average return": 0.4888148762688288,
+    "median return": 0.4888148762688288,
+    "number": 2,
+    "percengage of green candles": 50.0
+  },
+  "[True, True, False, False, False]": {
+    "average return": 6.762831423373468,
+    "median return": 6.762831423373468,
+    "number": 1,
+    "percengage of green candles": 100.0
+  },
+  "[True, False, True, False, False]": {
+    "average return": -5.948567281995011,
+    "median return": -5.948567281995011,
+    "number": 1,
+    "percengage of green candles": 0.0
+  },
+  "[True, False, False, True, False]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[True, False, False, False, True]": {
+    "average return": -0.7632036250004774,
+    "median return": -0.7632036250004774,
+    "number": 1,
+    "percengage of green candles": 0.0
+  },
+  "[False, True, True, False, False]": {
+    "average return": -4.118335471161998,
+    "median return": -4.118335471161998,
+    "number": 1,
+    "percengage of green candles": 0.0
+  },
+  "[False, True, False, True, False]": {
+    "average return": 6.418299578520861,
+    "median return": 6.418299578520861,
+    "number": 2,
+    "percengage of green candles": 50.0
+  },
+  "[False, True, False, False, True]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[False, False, True, True, False]": {
+    "average return": 5.3632226529580205,
+    "median return": 5.3632226529580205,
+    "number": 1,
+    "percengage of green candles": 100.0
+  },
+  "[False, False, True, False, True]": {
+    "average return": -3.5003353193615228,
+    "median return": -3.5003353193615228,
+    "number": 1,
+    "percengage of green candles": 0.0
+  },
+  "[False, False, False, True, True]": {
+    "average return": -5.213239220197834,
+    "median return": -5.213239220197834,
+    "number": 1,
+    "percengage of green candles": 0.0
+  },
+  "[True, True, True, False, False]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[True, True, False, True, False]": {
+    "average return": 3.0760795710359257,
+    "median return": 3.0760795710359257,
+    "number": 2,
+    "percengage of green candles": 100.0
+  },
+  "[True, True, False, False, True]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[True, False, True, True, False]": {
+    "average return": 1.7503457061805308,
+    "median return": 1.7503457061805308,
+    "number": 2,
+    "percengage of green candles": 50.0
+  },
+  "[True, False, True, False, True]": {
+    "average return": -0.8382623308265252,
+    "median return": 1.7146780070307424,
+    "number": 3,
+    "percengage of green candles": 66.66666666666666
+  },
+  "[True, False, False, True, True]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[False, True, True, True, False]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[False, True, True, False, True]": {
+    "average return": -4.22040415244904,
+    "median return": -1.49945805130448,
+    "number": 3,
+    "percengage of green candles": 0.0
+  },
+  "[False, True, False, True, True]": {
+    "average return": -3.9016610655744626,
+    "median return": -3.9016610655744626,
+    "number": 2,
+    "percengage of green candles": 50.0
+  },
+  "[False, False, True, True, True]": {
+    "average return": "this pattern wasn't observed",
+    "median return": "this pattern wasn't observed",
+    "number": 0,
+    "percengage of green candles": "this pattern wasn't observed"
+  },
+  "[True, True, True, True, False]": {
+    "average return": 9.907234537544081,
+    "median return": 9.907234537544081,
+    "number": 2,
+    "percengage of green candles": 100.0
+  },
+  "[True, True, True, False, True]": {
+    "average return": 11.383914948926202,
+    "median return": 11.383914948926202,
+    "number": 2,
+    "percengage of green candles": 100.0
+  },
+  "[True, True, False, True, True]": {
+    "average return": 4.148600865984657,
+    "median return": 4.148600865984657,
+    "number": 2,
+    "percengage of green candles": 50.0
+  },
+  "[True, False, True, True, True]": {
+    "average return": 11.173893032932744,
+    "median return": 11.173893032932744,
+    "number": 2,
+    "percengage of green candles": 100.0
+  },
+  "[False, True, True, True, True]": {
+    "average return": 8.598423034264595,
+    "median return": 8.598423034264595,
+    "number": 2,
+    "percengage of green candles": 100.0
+  }
+}

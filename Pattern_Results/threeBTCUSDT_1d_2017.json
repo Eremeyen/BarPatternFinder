@@ -1,1 +1,50 @@
-{"[True, True, True]": {"average return": 2.187654655664471, "median return": 1.1145075243949685, "number": 27, "percengage of green candles": 51.85185185185185}, "[False, False, False]": {"average return": 0.04895753546239841, "median return": 0.08433439841461755, "number": 13, "percengage of green candles": 53.84615384615385}, "[True, True, False]": {"average return": -0.8419687388889346, "median return": -0.020095397464697174, "number": 19, "percengage of green candles": 47.368421052631575}, "[True, False, True]": {"average return": 2.2714092709819367, "median return": 3.092183398757743, "number": 15, "percengage of green candles": 53.333333333333336}, "[False, True, True]": {"average return": 2.1389092615549252, "median return": 1.2359807736324102, "number": 19, "percengage of green candles": 68.42105263157895}, "[False, False, True]": {"average return": 1.89438338314447, "median return": 1.6857434051088853, "number": 15, "percengage of green candles": 73.33333333333333}, "[False, True, False]": {"average return": 1.4651644130342387, "median return": 0.6845223182929296, "number": 10, "percengage of green candles": 50.0}, "[True, False, False]": {"average return": -1.8623199065729326, "median return": 0.5976095617529881, "number": 15, "percengage of green candles": 53.333333333333336}}
+{
+  "[True, True, True]": {
+    "average return": 2.187654655664471,
+    "median return": 1.1145075243949685,
+    "number": 27,
+    "percengage of green candles": 51.85185185185185
+  },
+  "[False, False, False]": {
+    "average return": 0.04895753546239841,
+    "median return": 0.08433439841461755,
+    "number": 13,
+    "percengage of green candles": 53.84615384615385
+  },
+  "[True, True, False]": {
+    "average return": -0.8419687388889346,
+    "median return": -0.020095397464697174,
+    "number": 19,
+    "percengage of green candles": 47.368421052631575
+  },
+  "[True, False, True]": {
+    "average return": 2.2714092709819367,
+    "median return": 3.092183398757743,
+    "number": 15,
+    "percengage of green candles": 53.333333333333336
+  },
+  "[False, True, True]": {
+    "average return": 2.1389092615549252,
+    "median return": 1.2359807736324102,
+    "number": 19,
+    "percengage of green candles": 68.42105263157895
+  },
+  "[False, False, True]": {
+    "average return": 1.89438338314447,
+    "median return": 1.6857434051088853,
+    "number": 15,
+    "percengage of green candles": 73.33333333333333
+  },
+  "[False, True, False]": {
+    "average return": 1.4651644130342387,
+    "median return": 0.6845223182929296,
+    "number": 10,
+    "percengage of green candles": 50.0
+  },
+  "[True, False, False]": {
+    "average return": -1.8623199065729326,
+    "median return": 0.5976095617529881,
+    "number": 15,
+    "percengage of green candles": 53.333333333333336
+  }
+}

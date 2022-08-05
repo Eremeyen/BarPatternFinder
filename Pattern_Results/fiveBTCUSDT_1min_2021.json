@@ -1,1 +1,194 @@
-{"[True, True, True, True, True]": {"average return": -0.002275673262650696, "median return": -0.005203799545953724, "number": 14027, "percengage of green candles": 47.33014899836031}, "[False, False, False, False, False]": {"average return": 0.008084274733984488, "median return": 0.00802626283637012, "number": 14399, "percengage of green candles": 53.76067782484895}, "[True, False, False, False, False]": {"average return": 0.004884419411128271, "median return": 0.0054605074554836385, "number": 16417, "percengage of green candles": 52.84765791557532}, "[False, True, False, False, False]": {"average return": 0.0005615138695613751, "median return": 0.0015639221471452419, "number": 16626, "percengage of green candles": 50.99242150848069}, "[False, False, True, False, False]": {"average return": -0.000978543825962651, "median return": 2.8873324039636476e-05, "number": 16834, "percengage of green candles": 50.083165023167396}, "[False, False, False, True, False]": {"average return": -0.002851073009108521, "median return": -0.00010256798402967152, "number": 16494, "percengage of green candles": 49.63623135685704}, "[False, False, False, False, True]": {"average return": 0.00292776396347775, "median return": 0.002516005580628139, "number": 16417, "percengage of green candles": 51.154291283425714}, "[True, True, False, False, False]": {"average return": 0.002646023419618277, "median return": 0.0022100155531776296, "number": 16963, "percengage of green candles": 51.25272652243117}, "[True, False, True, False, False]": {"average return": -0.0010047243756789875, "median return": 0.0003104173557749362, "number": 16562, "percengage of green candles": 50.35019925129816}, "[True, False, False, True, False]": {"average return": -0.004546976147173516, "median return": -0.0002944093643460399, "number": 16934, "percengage of green candles": 49.64568324081729}, "[True, False, False, False, True]": {"average return": 0.004331537983027387, "median return": 0.0010552009948758638, "number": 17172, "percengage of green candles": 50.64640111809923}, "[False, True, True, False, False]": {"average return": -0.001798834228771888, "median return": -0.0010150222458562323, "number": 17088, "percengage of green candles": 49.32701310861423}, "[False, True, False, True, False]": {"average return": -0.00506637740752981, "median return": -0.002623487756520041, "number": 15722, "percengage of green candles": 48.301742780816696}, "[False, True, False, False, True]": {"average return": 0.0029585004512085, "median return": 0.0, "number": 16770, "percengage of green candles": 49.868813357185445}, "[False, False, True, True, False]": {"average return": -0.003858055720951307, "median return": -0.000540120622821647, "number": 17145, "percengage of green candles": 49.51297754447361}, "[False, False, True, False, True]": {"average return": 0.005601721804409246, "median return": 0.0021037624831196557, "number": 16594, "percengage of green candles": 51.17512353862842}, "[False, False, False, True, True]": {"average return": -0.004420142930792644, "median return": -0.0029590254863824162, "number": 17095, "percengage of green candles": 48.40011699327288}, "[True, True, True, False, False]": {"average return": 0.004585238791492792, "median return": 0.00046931474134419965, "number": 16726, "percengage of green candles": 50.35872294631113}, "[True, True, False, True, False]": {"average return": -0.0044764096774401714, "median return": -0.003657397621038278, "number": 16230, "percengage of green candles": 48.03450400492915}, "[True, True, False, False, True]": {"average return": 0.0018450273697850263, "median return": -0.0008417798607107238, "number": 16852, "percengage of green candles": 49.40066460954189}, "[True, False, True, True, False]": {"average return": -0.002650863509315246, "median return": -0.0010344855432551986, "number": 16618, "percengage of green candles": 49.25382115778072}, "[True, False, True, False, True]": {"average return": 0.004641410024485483, "median return": 0.0005330895102318579, "number": 15390, "percengage of green candles": 50.487329434697855}, "[True, False, False, True, True]": {"average return": 0.002881554120216681, "median return": 5.620409831147413e-05, "number": 16688, "percengage of green candles": 50.119846596356666}, "[False, True, True, True, False]": {"average return": -0.001853229846711121, "median return": -0.0014566429985631573, "number": 17014, "percengage of green candles": 49.112495591865525}, "[False, True, True, False, True]": {"average return": 0.0024903692615570183, "median return": 2.2401664213780095e-05, "number": 16674, "percengage of green candles": 50.077965695094164}, "[False, True, False, True, True]": {"average return": -0.0009501471752082441, "median return": -0.002796530149186056, "number": 16262, "percengage of green candles": 48.407329971713196}, "[False, False, True, True, True]": {"average return": -0.00452319594649929, "median return": -0.0052813409004716615, "number": 16638, "percengage of green candles": 47.097006851785075}, "[True, True, True, True, False]": {"average return": -0.0052705607533016586, "median return": -0.004019929981128757, "number": 15483, "percengage of green candles": 47.89123554866628}, "[True, True, True, False, True]": {"average return": 0.004304392680194762, "median return": -1.9855858385709316e-05, "number": 15771, "percengage of green candles": 49.870014583729635}, "[True, True, False, True, True]": {"average return": 0.0015498895085974756, "median return": -0.0011366333361758152, "number": 16215, "percengage of green candles": 49.25686093123651}, "[True, False, True, True, True]": {"average return": -0.00098493755912227, "median return": -0.0029488068442185917, "number": 15859, "percengage of green candles": 48.218677091872124}, "[False, True, True, True, True]": {"average return": -0.0007532435568715892, "median return": -0.004325463775389551, "number": 15483, "percengage of green candles": 47.716850739520766}}
+{
+  "[True, True, True, True, True]": {
+    "average return": -0.002275673262650696,
+    "median return": -0.005203799545953724,
+    "number": 14027,
+    "percengage of green candles": 47.33014899836031
+  },
+  "[False, False, False, False, False]": {
+    "average return": 0.008084274733984488,
+    "median return": 0.00802626283637012,
+    "number": 14399,
+    "percengage of green candles": 53.76067782484895
+  },
+  "[True, False, False, False, False]": {
+    "average return": 0.004884419411128271,
+    "median return": 0.0054605074554836385,
+    "number": 16417,
+    "percengage of green candles": 52.84765791557532
+  },
+  "[False, True, False, False, False]": {
+    "average return": 0.0005615138695613751,
+    "median return": 0.0015639221471452419,
+    "number": 16626,
+    "percengage of green candles": 50.99242150848069
+  },
+  "[False, False, True, False, False]": {
+    "average return": -0.000978543825962651,
+    "median return": 2.8873324039636476e-5,
+    "number": 16834,
+    "percengage of green candles": 50.083165023167396
+  },
+  "[False, False, False, True, False]": {
+    "average return": -0.002851073009108521,
+    "median return": -0.00010256798402967152,
+    "number": 16494,
+    "percengage of green candles": 49.63623135685704
+  },
+  "[False, False, False, False, True]": {
+    "average return": 0.00292776396347775,
+    "median return": 0.002516005580628139,
+    "number": 16417,
+    "percengage of green candles": 51.154291283425714
+  },
+  "[True, True, False, False, False]": {
+    "average return": 0.002646023419618277,
+    "median return": 0.0022100155531776296,
+    "number": 16963,
+    "percengage of green candles": 51.25272652243117
+  },
+  "[True, False, True, False, False]": {
+    "average return": -0.0010047243756789875,
+    "median return": 0.0003104173557749362,
+    "number": 16562,
+    "percengage of green candles": 50.35019925129816
+  },
+  "[True, False, False, True, False]": {
+    "average return": -0.004546976147173516,
+    "median return": -0.0002944093643460399,
+    "number": 16934,
+    "percengage of green candles": 49.64568324081729
+  },
+  "[True, False, False, False, True]": {
+    "average return": 0.004331537983027387,
+    "median return": 0.0010552009948758638,
+    "number": 17172,
+    "percengage of green candles": 50.64640111809923
+  },
+  "[False, True, True, False, False]": {
+    "average return": -0.001798834228771888,
+    "median return": -0.0010150222458562323,
+    "number": 17088,
+    "percengage of green candles": 49.32701310861423
+  },
+  "[False, True, False, True, False]": {
+    "average return": -0.00506637740752981,
+    "median return": -0.002623487756520041,
+    "number": 15722,
+    "percengage of green candles": 48.301742780816696
+  },
+  "[False, True, False, False, True]": {
+    "average return": 0.0029585004512085,
+    "median return": 0.0,
+    "number": 16770,
+    "percengage of green candles": 49.868813357185445
+  },
+  "[False, False, True, True, False]": {
+    "average return": -0.003858055720951307,
+    "median return": -0.000540120622821647,
+    "number": 17145,
+    "percengage of green candles": 49.51297754447361
+  },
+  "[False, False, True, False, True]": {
+    "average return": 0.005601721804409246,
+    "median return": 0.0021037624831196557,
+    "number": 16594,
+    "percengage of green candles": 51.17512353862842
+  },
+  "[False, False, False, True, True]": {
+    "average return": -0.004420142930792644,
+    "median return": -0.0029590254863824162,
+    "number": 17095,
+    "percengage of green candles": 48.40011699327288
+  },
+  "[True, True, True, False, False]": {
+    "average return": 0.004585238791492792,
+    "median return": 0.00046931474134419965,
+    "number": 16726,
+    "percengage of green candles": 50.35872294631113
+  },
+  "[True, True, False, True, False]": {
+    "average return": -0.0044764096774401714,
+    "median return": -0.003657397621038278,
+    "number": 16230,
+    "percengage of green candles": 48.03450400492915
+  },
+  "[True, True, False, False, True]": {
+    "average return": 0.0018450273697850263,
+    "median return": -0.0008417798607107238,
+    "number": 16852,
+    "percengage of green candles": 49.40066460954189
+  },
+  "[True, False, True, True, False]": {
+    "average return": -0.002650863509315246,
+    "median return": -0.0010344855432551986,
+    "number": 16618,
+    "percengage of green candles": 49.25382115778072
+  },
+  "[True, False, True, False, True]": {
+    "average return": 0.004641410024485483,
+    "median return": 0.0005330895102318579,
+    "number": 15390,
+    "percengage of green candles": 50.487329434697855
+  },
+  "[True, False, False, True, True]": {
+    "average return": 0.002881554120216681,
+    "median return": 5.620409831147413e-5,
+    "number": 16688,
+    "percengage of green candles": 50.119846596356666
+  },
+  "[False, True, True, True, False]": {
+    "average return": -0.001853229846711121,
+    "median return": -0.0014566429985631573,
+    "number": 17014,
+    "percengage of green candles": 49.112495591865525
+  },
+  "[False, True, True, False, True]": {
+    "average return": 0.0024903692615570183,
+    "median return": 2.2401664213780095e-5,
+    "number": 16674,
+    "percengage of green candles": 50.077965695094164
+  },
+  "[False, True, False, True, True]": {
+    "average return": -0.0009501471752082441,
+    "median return": -0.002796530149186056,
+    "number": 16262,
+    "percengage of green candles": 48.407329971713196
+  },
+  "[False, False, True, True, True]": {
+    "average return": -0.00452319594649929,
+    "median return": -0.0052813409004716615,
+    "number": 16638,
+    "percengage of green candles": 47.097006851785075
+  },
+  "[True, True, True, True, False]": {
+    "average return": -0.0052705607533016586,
+    "median return": -0.004019929981128757,
+    "number": 15483,
+    "percengage of green candles": 47.89123554866628
+  },
+  "[True, True, True, False, True]": {
+    "average return": 0.004304392680194762,
+    "median return": -1.9855858385709316e-5,
+    "number": 15771,
+    "percengage of green candles": 49.870014583729635
+  },
+  "[True, True, False, True, True]": {
+    "average return": 0.0015498895085974756,
+    "median return": -0.0011366333361758152,
+    "number": 16215,
+    "percengage of green candles": 49.25686093123651
+  },
+  "[True, False, True, True, True]": {
+    "average return": -0.00098493755912227,
+    "median return": -0.0029488068442185917,
+    "number": 15859,
+    "percengage of green candles": 48.218677091872124
+  },
+  "[False, True, True, True, True]": {
+    "average return": -0.0007532435568715892,
+    "median return": -0.004325463775389551,
+    "number": 15483,
+    "percengage of green candles": 47.716850739520766
+  }
+}
