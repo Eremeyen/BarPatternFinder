@@ -35,19 +35,16 @@ def statsDictionary(dic):
             dict[key]["median return"] = statistics.median(r_arr)
         else:
             dict[key]["median return"] = "this pattern wasn't observed"
-        #dict[key]["median return"] = statistics.median(r_arr)
         dict[key]["number"] = len(dic[key])
         count = 0
         for i in dic[key]:
             if(i.following_candle.is_green):
                 count +=1
-        #dict[key]["percentage of green candles"] = 
         dict[key]["percengage of green candles"] = count / len(dic[key]) * 100 if len(r_arr) > 0 else "this pattern wasn't observed"
     return dict
 
 
 
-#five = statsDictionary(length_five_p)
 
 #sample saving as json file:
 
@@ -85,14 +82,8 @@ def generate_json():
         jsonwriter.write(j)
         jsonwriter.close
 
-#generate_json()
-candles = green_red_pattern_finder.candles_from_CSV("BTCUSDT_4h_2022H1.csv")
-five_klines = green_red_pattern_finder.lengthFiveKlines(candles)
-five = statsDictionary(five_klines)
-j = json.dumps(five)
-jsonwriter = open("Pattern_Results/" + "five" + "BTCUSDT_4h_2021H1.csv"[:-4] +".json","w")
-jsonwriter.write(j)
-jsonwriter.close
+generate_json()
+
 
 
 #idea: sort list of returns?
