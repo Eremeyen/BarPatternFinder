@@ -85,7 +85,16 @@ def generate_json():
         jsonwriter.write(j)
         jsonwriter.close
 
-generate_json()
+#generate_json()
+candles = green_red_pattern_finder.candles_from_CSV("BTCUSDT_4h_2022H1.csv")
+five_klines = green_red_pattern_finder.lengthFiveKlines(candles)
+five = statsDictionary(five_klines)
+j = json.dumps(five)
+jsonwriter = open("Pattern_Results/" + "five" + "BTCUSDT_4h_2021H1.csv"[:-4] +".json","w")
+jsonwriter.write(j)
+jsonwriter.close
+
+
 #idea: sort list of returns?
 #store timestamps as well?
 #use numpy arrays instead?
