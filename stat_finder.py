@@ -19,7 +19,7 @@ length_four_p = green_red_pattern_finder.lengthFourKlines(candles)
 length_five_p = green_red_pattern_finder.lengthFiveKlines(candles)
 """
 
-#receives the dictionaries as inputs and outputs another dictionary
+#input: pattern dictionary
 def statsDictionary(dic):
     dict = {}
     for key in dic:

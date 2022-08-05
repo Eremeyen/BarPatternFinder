@@ -59,7 +59,8 @@ for i in list(fi4):
 
 
 
-
+#input: name of csv file that we will extract info from
+#returns: array of candles in that csv file
 def candles_from_CSV(filename):
     csvfile = open("DATA/" + filename)
     csv_reader = csv.reader(csvfile)
@@ -69,6 +70,8 @@ def candles_from_CSV(filename):
     csvfile.close()
     return candles
 
+#input: candles array
+#output: 
 def lengthThreeKlines(candles):
     pattern_dict = {}
     for i in pat_l3:
@@ -87,6 +90,7 @@ def lengthThreeKlines(candles):
         for key in pattern_dict:
             if(key == str(check_pattern)):
                 pattern_dict[key].append(klineN(cf,c4))
+                break
     return pattern_dict
 
    
