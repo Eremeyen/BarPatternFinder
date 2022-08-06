@@ -1,6 +1,5 @@
 import matplotlib.pyplot as plt
-import json
-import os
+
 import green_red_pattern_finder
 
 
@@ -27,12 +26,14 @@ def getPlots(filename):
         plt.xlabel("chronological order")
         plt.title(key + filename[:-4])
         plt.scatter(x_axis,returns_dict[key],c="blue")
+        plt.axhline()
         plt.savefig("plots/" + key + filename[:-4] + ".png")
+        plt.clf()
     
     returns_dict = {}
     for key in l_four:
         returns_dict[key] = []
-        for kline in l_three[key]:
+        for kline in l_four[key]:
             returns_dict[key].append(kline.following_candle.ratio)
     for key in returns_dict:
         x_axis = []
@@ -44,11 +45,13 @@ def getPlots(filename):
         plt.xlabel("chronological order")
         plt.title(key + filename[:-4])
         plt.scatter(x_axis,returns_dict[key],c="blue")
+        plt.axhline()
         plt.savefig("plots/" + key + filename[:-4] + ".png")
+        plt.clf()
     returns_dict = {}
     for key in l_five:
         returns_dict[key] = []
-        for kline in l_three[key]:
+        for kline in l_five[key]:
             returns_dict[key].append(kline.following_candle.ratio)
     for key in returns_dict:
         x_axis = []
@@ -60,7 +63,9 @@ def getPlots(filename):
         plt.xlabel("chronological order")
         plt.title(key + filename[:-4])
         plt.scatter(x_axis,returns_dict[key],c="blue")
+        plt.axhline()
         plt.savefig("plots/" + key + filename[:-4] + ".png")
+        plt.clf()
     """
     count = 0
     x_axis = []
@@ -73,4 +78,4 @@ def getPlots(filename):
     plt.savefig("plots/test.png")
     """
 #plt.show()
-getPlots("BTCUSDT_1d_2021.csv")
+getPlots("BTCUSDT_4h_2021.csv")
