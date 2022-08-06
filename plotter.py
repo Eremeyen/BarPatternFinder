@@ -78,4 +78,4 @@ def getPlots(filename):
     plt.savefig("plots/test.png")
     """
 #plt.show()
-getPlots("BTCUSDT_4h_2021.csv")
+getPlots("BTCUSDT_1min_2021.csv")

@@ -1,5 +1,6 @@
 import json
 def bug_fix_number(filename):
+    filename = "Pattern_Results/" + filename
     jsonfile = open(filename)
     dict = json.load(jsonfile)
     count = 0
@@ -11,6 +12,7 @@ def bug_fix_number(filename):
 #print(bug_fix_number("Pattern_Results/fiveBTCUSDT_1d_2021.json"))
 
 def weighted_percentage_average(filename):
+    filename = "Pattern_Results/" + filename
     jsonfile = open(filename)
     dict = json.load(jsonfile)
     count = 0
@@ -18,4 +20,4 @@ def weighted_percentage_average(filename):
         count += dict[key]["number"]*dict[key]["percengage of green candles"]
     return count / bug_fix_number(filename)
 
-print(weighted_percentage_average("Pattern_Results/fiveBTCUSDT_1min_2022H1.json"))
+print(weighted_percentage_average("fiveBTCUSDT_1min_2022H1.json"))
